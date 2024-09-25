@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #121313;
+}
+
+#sobre, #contato, #home {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vw;
+    background-color: rgb(171, 254, 248);
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

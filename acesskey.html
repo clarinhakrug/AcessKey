@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Atalhos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Cabeçalho com atalhos -->
+    <header>
+        <h1>Página com Atalhos</h1>
+        <nav>
+            <a href="#home" accesskey="h">Home (Alt + h)</a> |
+            <a href="#sobre" accesskey="p">Sobre (Alt + p)</a> |
+            <a href="#contato" accesskey="c">Contato (Alt + c)</a>
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home">
+        <h2>Bem-vindo à Home</h2>
+        <p>Esta é a seção principal da página. Use o atalho Alt + h para acessar rapidamente.</p>
+        <img src="caminho_para_imagem1.jpg" alt="Imagem de exemplo">
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Aprenda mais sobre nossa missão e valores. Use Alt + s para chegar aqui.</p>
+        <img src="caminho_para_imagem2.jpg" alt="Imagem de exemplo">
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Entre em contato conosco através deste formulário. Use Alt + c para vir diretamente.</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" accesskey="n"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" accesskey="e"><br><br>
+            <button type="submit" accesskey="s">Enviar (Alt + s)</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Maria Clara Bueno Krug</p>
+    </footer>
+
+    <script src="script.js"></script>
